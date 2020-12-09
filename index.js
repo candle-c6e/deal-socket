@@ -11,6 +11,7 @@ const io = require("socket.io")(http, {
   cors: {
     origin: "*",
   },
+  path: "/mysocket",
 });
 
 const main = async () => {
